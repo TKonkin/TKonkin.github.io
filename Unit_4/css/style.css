@@ -1,12 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:wght@300&display=swap');
 
 .body {
 	color: #FFFAFA;
 }
 
 .h1 {
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	color: #2A00D7;
 }
 
