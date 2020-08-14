@@ -110,6 +110,7 @@ footer {
 		width: 100%;
 		padding: .6em;
 	}
+}
 
 	img {
 	width: 230px;
@@ -132,7 +133,7 @@ footer {
 	}
 
 	#right {
-		float: left;
+		float: none;
 	}
 }
 
