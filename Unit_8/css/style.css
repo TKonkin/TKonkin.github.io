@@ -132,7 +132,7 @@ footer {
 	}
 
 	#right {
-		float: none;
+		float: left;
 	}
 }
 
