@@ -67,18 +67,6 @@ section {
 	width: 62%;
 }
 
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
