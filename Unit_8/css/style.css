@@ -35,26 +35,11 @@ section {
 	padding: 20px;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
 
 #left {
 	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 20px;
-	float: left;
 	width: 30%;
 	display: inline-block;
 }
@@ -74,8 +59,14 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  #right {
+  #left, #right {
 	float: none;
+	display: block;
+	text-align: center;
+	}
+	section, div {
+		width: 100%;
+		padding: 0.6em;
 	}
 }
 
