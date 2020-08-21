@@ -35,16 +35,30 @@ section {
 	padding: 20px;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
 
 #left {
 	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
 	width: 30%;
-	display: inline-block;
 }
 
-#right {
+#right{
 	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
@@ -52,16 +66,21 @@ section {
 	width: 62%;
 }
 
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
 }
-
-@media only screen and (max-width: 800px) {
-  #left, #right {}
-	
-}
-
-
 
