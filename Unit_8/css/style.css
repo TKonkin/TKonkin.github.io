@@ -70,4 +70,9 @@ footer {
 	#right {
 		float: none;
 	}
+
+	#left, #right {
+		display: block;
+		text-align: center;
+	}
 }
