@@ -67,7 +67,7 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-	#right {
+	#right, #left {
 		float: none;
 	}
 
